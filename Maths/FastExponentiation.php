@@ -2,11 +2,11 @@
 /**
  * This functions computes an exponent by doing repeated squares
  *
- * @param Integer $base the base
- * @param Integer $exponent the exponent (ie the number of times that the base is multiplied by itself)
- * @return Integer
+ * @param Int $base the base
+ * @param Int $exponent the exponent (ie the number of times that the base is multiplied by itself)
+ * @return Int
  */
-function fastExponentiation(int $base, int $exponent)
+function fastExponentiation(int $base, int $exponent): int
 {
     if ($exponent == 0) {
 		return 1;

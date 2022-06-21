@@ -5,10 +5,10 @@
  * of provided positive integer
  * number.
  *
- * @param Integer $number Integer input
- * @return Integer Factorial of the input
+ * @param Int $number Integer input
+ * @return Int Factorial of the input
  */
-function factorial(int $number)
+function factorial(int $number): int
 {
     if ($number < 0) {
         throw new \Exception("Negative numbers are not allowed for calculating Factorial");

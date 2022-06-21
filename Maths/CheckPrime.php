@@ -4,10 +4,10 @@
  * the provided integer is a prime
  * number or not.
  *
- * @param Integer $number An integer input
+ * @param Int $number An integer input
  * @return boolean whether the number is prime or not
  */
-function isPrime(int $number)
+function isPrime(int $number): bool
 {
     if ($number === 2) {
         return true;
